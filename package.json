@@ -1,0 +1,17 @@
+{
+  "name": "myfatoorahpaymentgateway",
+  "version": "1.0.0",
+  "description": "MyFatoorah payment gateway for ionic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MyFatoorah",
+    "Payment",
+    "Gateway",
+    "Ionic"
+  ],
+  "author": "",
+  "license": "ISC"
+}
