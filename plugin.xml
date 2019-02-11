@@ -21,7 +21,9 @@
                 <param name="ios-package" value="MyFatoorahPaymentGateway" />
             </feature>
         </config-file>
-        <framework src="src/ios/MFSDK.framework" embed="true" />
+        <framework src="src/ios/MFSDK.framework" embed="true" custom="true" /> 
+        <source-file src="src/ios/MFSDK.framework" target-dir="lib" framework="true" />
         <source-file src="src/ios/MyFatoorahPaymentGateway.m" />
+        
     </platform>
 </plugin>
